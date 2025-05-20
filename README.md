@@ -2,4 +2,6 @@
 
 Welcome to our repo 🥳. 
 
-## **Dataset** 🧠
+## **Dataset: TAU Urban Acoustic Scenes Mobile** 🧠
+
+## **Model: CP-Mobile** 🌐
