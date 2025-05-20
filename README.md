@@ -23,7 +23,7 @@ We use:
 
 ## 📁 Repository structure
 
-- `data/partitions/`: Custom train/val/test splits for balanced and imbalanced setups
+- `labels/`: Custom train/val/test splits for balanced and imbalanced setups
 - `src/`: Training pipeline, evaluation code, entropic triangle computation
 - `notebooks/`: Jupyter notebooks for plotting and exploring the results
 - `results/`: Saved figures and result summaries
