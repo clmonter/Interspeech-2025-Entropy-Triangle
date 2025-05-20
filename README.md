@@ -13,7 +13,7 @@ We share all the details of our work — including **code, custom dataset partit
 
 Understanding soundscapes is essential for real-world AI systems — but imbalanced data can severely harm model performance.
 
-In this work, we analyze the **impact of data imbalance** on the training dynamics of SOTA models using the **Entropic Triangle framework**.
+In this work, we analyze the **impact of different loss-weighting functions** to combat the imbalance, on the training dynamics of CP-Mobile using the **Entropic Triangle framework**.
 
 We use:
 
