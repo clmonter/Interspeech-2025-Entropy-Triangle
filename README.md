@@ -39,17 +39,8 @@ cd interspeech2025-entropy-triangle
 
 ### 2. Set up environment
 
-* Option 1 — with pip
-
 ```bash
 pip install -r requirements.txt
-```
-
-* Option 2 — with conda
-
-```bash
-conda env create -f environment.yml
-conda activate entropy-asc
 ```
 
 ## 📜 Citation
