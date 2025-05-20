@@ -33,8 +33,9 @@ We use:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/interspeech2025-entropy-triangle.git
+git clone https://github.com/clmonter/interspeech2025-entropy-triangle.git
 cd interspeech2025-entropy-triangle
+```
 
 ### 2. Set up environment
 
