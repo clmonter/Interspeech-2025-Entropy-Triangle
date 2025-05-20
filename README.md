@@ -5,7 +5,7 @@
 This repository accompanies our **Interspeech 2025 paper**:  
 **"Beyond Conventional Metrics: using Entropic Triangles to Explain Balancing Methods in Acoustic Scene Classification"**
 
-🤗 It's an easy and visual way to **understand how data imbalance affects model training** through the **Entropic Triangle** framework.  
+🤗 It's an easy and visual way to **understand how data imbalance and different loss-weighting functions affect model training** through the **Entropic Triangle** framework.  
 We share all the details of our work — including **code, custom dataset partitions, and examples** — so you can reproduce the experiments and explore the results yourself.
 
 
