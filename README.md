@@ -8,6 +8,7 @@ This repository accompanies our **Interspeech 2025 paper**:
 🤗 It's an easy and visual way to **understand how data imbalance and different loss-weighting functions affect model training** through the **Entropic Triangle** framework.  
 We share all the details of our work — including **code, custom dataset partitions, and examples** — so you can reproduce the experiments and explore the results yourself.
 
+🌐 You just need to save all the confussion matrices during your training
 
 ## 🔍 Overview
 
@@ -24,9 +25,9 @@ We use:
 ## 📁 Repository structure
 
 - `labels/`: Custom train/val/test splits for balanced and imbalanced setups
-- `src/`: Training pipeline, evaluation code, entropic triangle computation
-- `notebooks/`: Jupyter notebooks for plotting and exploring the results
-- `results/`: Saved figures and result summaries
+- `src/`: Information theory functions, plots and other utils in order to use the entropic triangle framework
+- `notebooks/`: Jupyter notebooks for understanding, plotting and exploring the results and the entropic triangle
+- `results/`: Saved confussion matrices during training and evaluation
 
 ## 🚀 Quickstart
 
@@ -37,11 +38,13 @@ git clone https://github.com/clmonter/interspeech2025-entropy-triangle.git
 cd interspeech2025-entropy-triangle
 ```
 
-### 2. Set up environment
+### 2. Understand how to use the entropic triangle framework easily!
 
-```bash
-pip install -r requirements.txt
-```
+Go to `notebooks/Part1_easy_entropy_introduction.ipynb` to better understand this framework! It's easy and quick 🤗.
+
+### 3. See and understand all our results
+
+Go to `notebooks/Part2_triangle_for_ASC.ipynb` and play visualizing all the results 🤔.
 
 ## 📜 Citation
 
