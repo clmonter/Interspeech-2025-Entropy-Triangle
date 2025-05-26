@@ -63,10 +63,20 @@ def plot_triangle_lines(show=True):
     plt.plot([B[0], C[0]], [B[1], C[1]], color=color_right, linewidth=2)
     draw_parallel_lines_along_direction(B, C, A, num_lines=8, color=color_right)
 
+    ## Down line
     plt.text(0.5, -0.05, r"$\Delta H'_{P_{X} \cdot P_{Y}}$", ha='center', va='center', fontsize=15)
-    plt.text(0.15, 0.5, r"$VI'_{P_{XY}}$", ha='center', va='center', fontsize=15, rotation=65)
-    plt.text(1-0.15, 0.5, r"$2 \cdot MI'_{P_{XY}}$", ha='center', va='center', fontsize=15, rotation=-65)
+    plt.text(0.05, -0.05, '0', ha='center', va='center', fontsize=10, rotation=0)
+    plt.text(1-0.05, -0.05, '1', ha='center', va='center', fontsize=10, rotation=0)
 
+    ## Left line
+    plt.text(0.15, 0.5, r"$VI'_{P_{XY}}$", ha='center', va='center', fontsize=15, rotation=65)
+    plt.text(-0.05, 0.02, '1', ha='center', va='center', fontsize=10, rotation=65)
+    plt.text(0.5-0.05, 1-0.02, '0', ha='center', va='center', fontsize=10, rotation=65)
+
+    ## Right line
+    plt.text(1-0.15, 0.5, r"$2 \cdot MI'_{P_{XY}}$", ha='center', va='center', fontsize=15, rotation=-65)
+    plt.text(1+0.05, 0.02, '0', ha='center', va='center', fontsize=10, rotation=-65)
+    plt.text(0.5+0.05, 1-0.02, '1', ha='center', va='center', fontsize=10, rotation=-65)
     plt.axis('off') 
 
     plt.title('Entropy triangle')
@@ -133,11 +143,21 @@ def plot_dark_triangle_lines(show=True, title='Entropy triangle'):
     draw_parallel_lines_along_direction(A, C, B, num_lines=8, color=color_left)
     plt.plot([B[0], C[0]], [B[1], C[1]], color=color_right, linewidth=2)
     draw_parallel_lines_along_direction(B, C, A, num_lines=8, color=color_right)
-    
-    plt.text(0.5, -0.05, r"$\Delta H'_{P_{X} \cdot P_{Y}}$", ha='center', va='center', fontsize=15)
-    plt.text(0.15, 0.5, r"$VI'_{P_{XY}}$", ha='center', va='center', fontsize=15, rotation=65)
-    plt.text(1-0.15, 0.5, r"$2 \cdot MI'_{P_{XY}}$", ha='center', va='center', fontsize=15, rotation=-65)
 
+    ## Down line
+    plt.text(0.5, -0.05, r"$\Delta H'_{P_{X} \cdot P_{Y}}$", ha='center', va='center', fontsize=15)
+    plt.text(0.05, -0.05, '0', ha='center', va='center', fontsize=10, rotation=0)
+    plt.text(1-0.05, -0.05, '1', ha='center', va='center', fontsize=10, rotation=0)
+
+    ## Left line
+    plt.text(0.15, 0.5, r"$VI'_{P_{XY}}$", ha='center', va='center', fontsize=15, rotation=65)
+    plt.text(-0.05, 0.02, '1', ha='center', va='center', fontsize=10, rotation=65)
+    plt.text(0.5-0.05, 1-0.02, '0', ha='center', va='center', fontsize=10, rotation=65)
+
+    ## Right line
+    plt.text(1-0.15, 0.5, r"$2 \cdot MI'_{P_{XY}}$", ha='center', va='center', fontsize=15, rotation=-65)
+    plt.text(1+0.05, 0.02, '0', ha='center', va='center', fontsize=10, rotation=-65)
+    plt.text(0.5+0.05, 1-0.02, '1', ha='center', va='center', fontsize=10, rotation=-65)
     plt.axis('off') 
     
     plt.title(f'{title}')
