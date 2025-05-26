@@ -29,6 +29,25 @@ def compute_metrics(cm_path, loss_type, fold, group):
 
     return all_x_points_array, all_y_points_array
 
+def compute_real_metrics(cm_path, loss_type, fold, group):
+    ## Metrics in 3D for all epochs
+    epochs = len(os.listdir(f"{cm_path}/{loss_type}/fold_{fold}/{group}"))
+
+    all_metrics = []
+
+    for epoch in range(epochs):
+
+        cm_epoch = np.array(pd.read_csv(f"{cm_path}/{loss_type}/fold_{fold}/{group}/cm_epoch_{epoch}.csv"))
+
+        metrics_epoch = calculate_everything(cm_epoch, normalize=True)
+
+        all_metrics.append(metrics_epoch)
+
+    all_metrics = np.vstack(all_metrics) 
+
+    return all_metrics
+
+
 def plot_many_coordinates(all_x_points_array, all_y_points_array, cmap_name, size, title, step=1):
 
     total_epochs = len(all_x_points_array)
