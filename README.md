@@ -1,4 +1,4 @@
-# Interspeech 2025 — Entropy Triangle for Acoustic Scene Classification
+# Interspeech 2025 — Entropy Triangle to understand Acoustic Scene Classification
 
 🥳 Welcome to our repo!!
 
