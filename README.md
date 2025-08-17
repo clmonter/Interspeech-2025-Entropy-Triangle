@@ -56,10 +56,13 @@ cd interspeech2025-entropy-triangle
 If you use this repo, please cite our paper:
 
 ```mathematica
-@inproceedings{montero-ramirez2025,
-  title={Beyond Conventional Metrics: using Entropic Triangles to Explain Balancing Methods in Acoustic Scene Classification},
-  author={C. Montero-Ramirez et al.},
-  booktitle={Proceedings of Interspeech 2025},
-  year={2025}
+@inproceedings{monteroramirez25_interspeech,
+  title     = {{Beyond Conventional Metrics: using Entropic Triangles to Explain Balancing Methods in Acoustic Scene Classification}},
+  author    = {{Claudia Montero-Ramírez and Alba Martínez-Serrano and Jorge Garcelán-Gómez and Francisco J. Valverde-Albacete and Carmen Peláez-Moreno}},
+  year      = {{2025}},
+  booktitle = {{Interspeech 2025}},
+  pages     = {{1323--1327}},
+  doi       = {{10.21437/Interspeech.2025-1998}},
+  issn      = {{2958-1796}},
 }
 ```
