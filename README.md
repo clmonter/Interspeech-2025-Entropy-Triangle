@@ -4,7 +4,7 @@
 
 This repository accompanies our **Interspeech 2025 paper**:  
 
-**["Beyond Conventional Metrics: using Entropic Triangles to Explain Balancing Methods in Acoustic Scene Classification"]** (https://www.isca-archive.org/interspeech_2025/monteroramirez25_interspeech.pdf)
+**["Beyond Conventional Metrics: using Entropic Triangles to Explain Balancing Methods in Acoustic Scene Classification"](https://www.isca-archive.org/interspeech_2025/monteroramirez25_interspeech.pdf)**
 
 🤗 Using entropy triangles is an easy and visual way to **understand how data imbalance and different loss-weighting functions affect model training** through the **[Entropy Balance Equations and Triangles](https://github.com/FJValverde/EntropyTriangles.jl) framework**. 
 
